@@ -1,0 +1,234 @@
+
+/* color */
+/* primary #178cec */
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+html,body{
+    color:rgb(255, 255, 255);
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+/* middle alignment */
+.row{
+    max-width: 1140px;
+    margin:0 auto 0 auto;
+}
+
+/* main section */
+.main-section{
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0,0,0,0.7)),to(rgba(0,0,0,0.7))),url(../contents/tech-img.jpg);
+    background-image: -o-linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../contents/tech-img.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../contents/tech-img.jpg);
+    text-align: center;
+    line-height: 140%;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+h1{
+    letter-spacing: 3px;
+    text-transform:uppercase ;
+}
+h1,h4{
+    font-family: 'Oswald', sans-serif;
+    color:white;
+    
+}
+h4{
+    font-weight: 300;
+}
+/* navigation */
+.navitems{
+    margin-top: 30px;
+}
+.navitems li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 5px;
+    text-transform: uppercase;
+}
+.navitems li a:link,.navitems li a:visited{
+    text-decoration: none;
+    color:white;
+    font-size: 80%;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 2px;
+    -webkit-transition: border-bottom 0.4s;
+    -o-transition: border-bottom 0.4s;
+    transition: border-bottom 0.4s;
+}
+.navitems li a:hover, .navitems li a:active{
+    border-bottom: 2px solid white;
+    
+    
+}
+/* Popup box */
+/* Popup box BEGIN */
+.bg-model{
+	width:100%;
+	height: 100%;
+	background-color: rgba(114, 109, 109, 0.7);
+	position: fixed;
+	top: 0;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: none;
+}
+.model-content{
+	width:700px;
+    height:500px;
+    background-color: rgb(12, 12, 12);
+    border-radius: 4px;
+    text-align:center;
+    padding: 20px;
+    position: relative;
+}
+.close{
+    position: absolute;
+    top:0;
+    right:14px;
+    font-size: 440%;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+    cursor: pointer;
+    color:white;
+}
+.bg-model h2{color:white;}
+.contact-form-ui{
+    margin-top: 10px;
+    line-height: 190%;
+}
+#submit-button{
+    margin-top: 50px;
+}
+/* ------------- */
+/* get now box */
+.get-now-box{
+    margin-top: 150px;
+}
+/* button */
+button{
+    cursor: pointer;
+    border-radius: 5%;
+    padding: 5px;
+    font-size: 90%;
+    border:1px solid white;
+    margin-top: 10px;
+    font-weight: 700;
+    background-clip: content-box;
+}
+/* About us page */
+.who-we-are{
+    margin-top:50px;
+}
+.who-we-are p{
+    margin-top: 50px;
+    font-size: 80%;
+    text-align: justify;
+}
+.feature-section{
+    margin-top: 50px;
+    font-size: 90%;
+}
+.feature-section p{
+    font-size:90%;
+    font-weight: 300;
+}
+.section-icon{
+    font-size: 130%;
+}
+.box{
+    padding-top: 13px;
+    border:1px solid white;
+    height: 170px;
+}
+
+/* Service page */
+.service-section{
+    margin-top: 100px;
+}
+.service-section p{
+    margin-top: 10px;
+    font-size: 90%;
+    text-align: justify;
+}
+.service-section ul{
+    list-style: none;
+}
+.service-section ul li::before{
+    content: '✓';
+}
+.tik-contents{
+    margin-top:70px;
+    
+}
+
+/* Packages page */
+.package-div{
+    line-height: 260%;
+    margin-top: 70px;
+
+}
+.package-box{
+    border: 2px solid white;
+}
+.package-box h4{
+    background-color: white;
+    color: black;
+    font-size: 160%;
+}
+.package-div p{
+    font-size: 90%;
+}
+.package-div span{
+    font-size: 170%;
+}
+/* Contact us */
+.contact-us-div{
+    margin-top: 50px;
+}
+.contact-address-box{
+    margin-top: 100px;
+}
+.contact-address-box p{
+    font-size: 85%;
+}
+/* Footer section */
+.footer-sec .left-content{
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+}
+.footer-sec .right-content{
+    position: absolute;
+    bottom: 10px;
+    right: 25px;
+}
+.right-content a{
+    text-decoration: none;
+    color:white;
+    -webkit-transition: color 0.3s;
+    -o-transition: color 0.3s;
+    transition: color 0.3s;
+    
+}
+.right-content a:hover{
+    color:rgb(16, 142, 245);
+}

@@ -1,0 +1,44 @@
+@media only screen and (max-width: 1200px){
+   
+    
+   
+
+}
+
+@media only screen and (max-width:1023px){
+    html,body{
+        font-size: 16px;
+    }
+    .main-section{
+        height: 150vh;
+    }
+    
+    
+}
+
+@media only screen and (max-width:767px){
+    .footer-sec .left-content{
+        font-size: 70%;
+    }
+    .box{
+        height: 210px;
+    }
+    .who-we-are p{
+        padding: 0 10px;
+    }
+    .service-section p{
+        padding: 0 10px; 
+    }
+
+}
+
+@media only screen and (max-width:480px){
+    .footer-sec .left-content{
+        font-size: 60%;
+    }
+    .main-section{
+        height: 250vh;
+    }
+
+    
+}
